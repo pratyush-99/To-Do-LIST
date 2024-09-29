@@ -23,7 +23,7 @@ listContainer.addEventListener("click", function(e) {
         e.target.classList.toggle("checked");
         saveData();
     } else if (e.target.tagName === "SPAN") {
-        e.target.parentElement.remove(); // Remove the parent list item
+        e.target.parentElement.remove(); 
         saveData();
     }
 }, false);
