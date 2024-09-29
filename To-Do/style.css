@@ -58,11 +58,11 @@ button{
 ul li {
     list-style: none;
     font-size: 17px;
-    padding: 12px 40px; /* Increased padding to prevent overlap */
+    padding: 12px 40px; 
     user-select: none;
     cursor: pointer;
     position: relative;
-    word-wrap: break-word; /* Ensure long text breaks to the next line */
+    word-wrap: break-word;
 }
 
 ul li::before {
@@ -74,14 +74,14 @@ ul li::before {
     background-image: url(./To-Do.png);
     background-size: cover;
     background-position: center;
-    top: 50%;  /* Center the circle vertically */
-    left: 10px; /* Adjust position from the left */
-    transform: translateY(-50%); /* Ensure vertical centering */
+    top: 50%;  
+    left: 10px; 
+    transform: translateY(-50%); 
 }
 
 ul li.checked::before {
-    background-color: #4CAF50; /* Green color when checked */
-    background-image: none;    /* Remove the image when checked */
+    background-color: #4CAF50; 
+    background-image: none;   
 }
 
 ul li.checked {
